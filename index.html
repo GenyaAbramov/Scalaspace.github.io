@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html> 
+
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+    <title>Scala Space: Find Scala Meetup Groups Near You!</title>
+
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+    <link href="http://fonts.googleapis.com/css?family=Roboto+Slab:600,400" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+
+  </head>
+
+  <body>
+
+    <header>
+        <div class="left">
+            <div><h1>ScalaSpace</h1></div>
+            <div><h2>Find Scala Meetup Groups Near You!</h2></div>
+        </div>
+        <div class="right">
+            <div id="expand-contribute"><a href="javascript:void(0)">Contribute!</a></div>
+        </div>
+    </header>
+
+    <section id="map"></section>
+
+    <div id="contribute">
+        <div>
+            <h3>Is your group missing, or you&rsquo;ve found a mistake?</h3>
+            <p>This website is open source, and contributing corrections, additions or new functionality is easy!</p>
+            <p>Just fork the <a target="_new" href="https://github.com/scalaspace/scalaspace.github.io">ScalaSpace</a> repository on GitHub, make your changes to the <b>groups.js</b> file (instructions are in the <b>README.md</b> file), and create a pull request. We will merge the changes.</p>
+            <p>For any questions about <b>scala.space</b>, get in touch with <a target="_new" href="https://twitter.com/propensive">@propensive</a>.</p>
+            <p id="collapse-contribute"><a href="javascript:void(0)">Thanks, close this notice.</a></p>
+        </div>
+    </div>
+
+  </body>
+
+  <script src="js/lib/markerclusterer_compiled.js"></script>
+
+  <script src="js/scala-space-jsdeps.min.js"></script>
+  <script src="js/scala-space-opt.js"></script>
+  <script src="js/scala-space-launcher.js"></script>
+
+</html>
